@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+
+}
+*body {
+margin: 0;
+padding: 0;
+}
+
+.btn-1 button{
+    color: #0D1321;
+    width: 228px;
+    height: 58px;
+    padding: 17px 24px 17px 24px;
+    box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+border-radius: 8px;
+
+opacity: 0.8;
+
+    }
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    border-top: 131px;
+}
+
+
+.f-header{
+    background-image: url(../B10A1-Challenge-Begins/assets/Hero-bg.png);
+    width: 1440px;
+    height: 652px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.header-logo{
+    justify-content: center;
+    background-position: center;
+    di
+}
+.btn button{
+    width: 208px;
+    height: 66px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+}
+
+/* 2nd part */
+/* <!-- midle start  part --> */
+
+.main-secton{
+width: 1140px;
+height: 1393px;
+border: 2px solid red;
+margin: 74px auto;
+padding:14px;
+}
+
+.main-header{
+    text-align: center;
+
+}
+
+.section-a{
+    text-align: left;
+    justify-content: center;
+    
+}
+.section-a-img{
+float: right;
+}
+.section-b section-b-img 2 {
+    
+}
+.test{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 48px;
+    margin: 60px 0px;
+    border: 80px 100px solid #0D132105;
+    background-color: #FFFFFF;
+}
+
+.test-2{
+display: flex;
+align-items: center;
+margin-bottom: 74px;
+}   
+
+.test-3{
+    width: 850px;
+    height: 240px;
+display: flex;
+align-items: center;
+gap: 98px;
+margin-bottom: 74px;   
+}
+
+.main-btn{
+    width: 200px;
+height: 48px;
+padding: 12px 20px 12px 20px;
+margin: 32px 0px;
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+}
+/* midle part end here */
