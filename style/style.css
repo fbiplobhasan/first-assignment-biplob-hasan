@@ -10,15 +10,15 @@ padding: 0;
 }
 
 .btn-1 button{
-    color: #0D1321;
+    font-size: 20px;
+    color: rgb(13, 19, 33);
     width: 228px;
     height: 58px;
     padding: 17px 24px 17px 24px;
     box-sizing: border-box;
-border: 1px solid rgb(13, 19, 33);
-border-radius: 8px;
-
-opacity: 0.8;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
 
     }
 
@@ -29,6 +29,7 @@ opacity: 0.8;
 }
 
 
+
 .f-header{
     background-image: url(../B10A1-Challenge-Begins/assets/Hero-bg.png);
     width: 1440px;
@@ -37,13 +38,22 @@ opacity: 0.8;
     text-align: center;
     padding-top: 100px;
 }
+
+.f-header section button{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 15px;
+font-weight: 600;
+line-height: 23px;
+}
+
 .header-logo{
     justify-content: center;
     background-position: center;
     di
 }
 .btn button{
-    width: 208px;
+    width: 220px;
     height: 66px;
     color: #FFFFFF;
     border-radius: 8px;
@@ -140,6 +150,7 @@ text-align: center;
     
 }
 
+/* cards start here */
 #card-heading{
     flex: none;
     align-items: center;
@@ -183,6 +194,10 @@ font-size: 16px;
 .card-p{
     font-size: 16px;
 }
+
+
+/* cards end here */
+/* footer start here */
 #footer{
     background-image: url(../B10A1-Challenge-Begins/assets/handshake.jpg);
     width: 1044px;
@@ -229,3 +244,5 @@ font-size: 16px;
     background: rgba(13, 19, 33, 0.03);
     margin-top: 69px;
 }
+
+/* footer end here */
