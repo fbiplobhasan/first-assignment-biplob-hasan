@@ -140,20 +140,24 @@ text-align: center;
     
 }
 
-.card-heading{
+#card-heading{
     flex: none;
     align-items: center;
+    justify-content: center;
 position: static;
 text-align: center;
 }
 
 #card1{
+    margin: 20px;
 width:284px ;
 height: 220;
 padding: 40px;
+border-radius: 16px;
 background-color: rgba(255, 76, 30, 0.05);
 }
 #card2{
+    margin: 20px;
 width:284px ;
 height: 220;
 padding: 40px;
@@ -161,9 +165,11 @@ border-radius: 16px;
 background: rgba(0, 76, 232, 0.05);
 }
 #card3{
+    margin: 20px;
 width:284px ;
 height: 220;
 padding: 40px;
+border-radius: 16px;
 background-color: rgba(255, 223, 0, 0.05);;
 }
 
@@ -176,4 +182,50 @@ font-size: 16px;
 
 .card-p{
     font-size: 16px;
+}
+#footer{
+    background-image: url(../B10A1-Challenge-Begins/assets/handshake.jpg);
+    width: 1044px;
+    height: 186px;
+    left: 150px;
+    right: 150px;
+    top: 4752px;
+    bottom: 179px;
+    padding: 64px 48px 64px 48px;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.halka{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#footer button  {
+    width: 120px;
+    height: 58px;   
+}
+#footer input {
+    width: 548px;
+    height: 57px;
+}
+
+.footer-social-media{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 32px 150px 32px 150px;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 69px;
 }
