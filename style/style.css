@@ -117,10 +117,63 @@ line-height: 23px;
 }
 /* midle part end here */
 
+/* video par start */
+
 .video-part{
-    margin: 0 auto;
+width: 1140px;
+height: 877px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 32npx;
+border-radius: 16px;
+text-align: justify;
+text-align: center;
+}
+/* video par end */
+
+.card-parent{
     width: 1140px;
-    height: 777px;
-    border: 1px solid red;
+    height: 300px;
+    display: flex;
     
+}
+
+.card-heading{
+    flex: none;
+    align-items: center;
+position: static;
+text-align: center;
+}
+
+#card1{
+width:284px ;
+height: 220;
+padding: 40px;
+background-color: rgba(255, 76, 30, 0.05);
+}
+#card2{
+width:284px ;
+height: 220;
+padding: 40px;
+border-radius: 16px;
+background: rgba(0, 76, 232, 0.05);
+}
+#card3{
+width:284px ;
+height: 220;
+padding: 40px;
+background-color: rgba(255, 223, 0, 0.05);;
+}
+
+.card-text-h{
+    font-size: 24px;
+}
+.card-text-p{
+font-size: 16px;
+}
+
+.card-p{
+    font-size: 16px;
 }
