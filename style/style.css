@@ -56,7 +56,6 @@ opacity: 0.8;
 .main-secton{
 width: 1140px;
 height: 1393px;
-border: 2px solid red;
 margin: 74px auto;
 padding:14px;
 }
@@ -117,3 +116,11 @@ font-weight: 600;
 line-height: 23px;
 }
 /* midle part end here */
+
+.video-part{
+    margin: 0 auto;
+    width: 1140px;
+    height: 777px;
+    border: 1px solid red;
+    
+}
